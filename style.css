@@ -1,0 +1,98 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+main
+{
+    padding: 80px;
+    font-family: 'Courgette', cursive;
+}
+
+main .content h2
+{
+    color: #9a68fb;
+    font-size: 2em;
+}
+
+main .content p
+{
+    color: #a97ffd;
+    font-size: 1.3em;
+}
+
+main .content p a
+{
+    color: #9a68fb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main .content a:hover
+{
+    text-decoration: underline currentColor solid 2px;
+}
+
+main .content a:visited
+{
+    color: #a97ffd;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+main img
+{
+    padding-top: 150px;
+    display: block;
+    margin: auto;
+    width: 450px;
+}
+
+@media screen and (max-width: 640px)
+{
+    main
+    {
+        padding: 0;
+    }
+
+    main .content
+    {
+        margin: 10px;
+    }
+
+    main .content h2
+    {
+        font-size: 1.5em;
+    }
+
+    main .content p
+    {
+        font-size: 1em;
+    }
+
+    main #image-mobile
+    {
+        display: block;
+        width: 80%;
+    }
+}
+
+
+
+            /*<svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+                    <image xlink:href="user.png" x="-25" width="150px" height="100" />
+                  </pattern>
+                </defs>
+                <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+              </svg>
+
+                            <svg viewbox="1 1 8 8">
+                <pattern id="image" width="10" height="10" patternUnits="userSpaceOnUse">
+                  <image xlink:href="user2.jpg" x="0" y="0" height="10" width="10" />
+                </pattern>
+                <path d="M5.5 1.5 L8.5 4.5 Q9 5 8.5 5.5 L5.5 8.5 Q5 9 4.5 8.5 L 1.5 5.5 Q1 5 1.5 4.5 L4.5 1.5 Q 5 1 5.5 1.5z" fill="url(#image)" />
+              </svg>
+              */
